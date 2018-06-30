@@ -15,7 +15,7 @@ for Pane | []()
 方向鍵 | 上下左右移動pane
 x | 關閉pane
 
-for Window | []()
+Window | []()
 --- | ---
 c | 新增window
 p | 切換到上一個window
