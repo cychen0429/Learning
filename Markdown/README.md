@@ -11,7 +11,7 @@ Use **word** to make word
 ```
 Use _word_ to make word italic
 ```   
-## StrikeThrough
+### StrikeThrough
 ```
 Use~~word~~ to have strikethrough
 ```  
@@ -87,7 +87,11 @@ if(true) {
   print("Hello World")
 }
 ```  
-### check list
+### task list
+```
+- [x] the item is completed
+- [ ] the item is unfinished
+```
 - [x] the item is completed
 - [ ] the item is unfinished
    
