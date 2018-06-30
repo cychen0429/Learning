@@ -1,44 +1,68 @@
 [Markdown Tutorial](https://www.markdowntutorial.com/)  
 [Github Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-  
-Use \*\*word\*\* to make word **bold**  
-Use \_word\_ to make word _italic_  
+[Basic writing and formatting syntax on Github](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
-# Header One
-## Header Two
-### Header Three
----
-#### Header Four
----
-##### Header Five
----
+### Bold
+```
+Use **word** to make word
+```
 
-Use \[Text\](www.somewhere.txt) to have inline link like this "[Search for it](www.google.com)"
+### Italic
+```
+Use _word_ to make word italic
+```
 
-the reference link usage is \[google\]\[go to google\]  
-\[go to google\]: www.google.com
+### Header
+  > # Header One
+  > ## Header Two
+  > ### Header Three
+  > #### Header Four
+  > ##### Header Five
+  > ###### Header Six
 
-\!\[inline image alt text\](https://avatars2.githubusercontent.com/u/6265563?s=460&v=4)  
-![alt text](https://avatars2.githubusercontent.com/u/6265563?s=460&v=4)
+### Inlink Link
+```
+Use [Text](www.somewhere.txt) to have inline link
+```
 
+### Reference Link
+```
+the reference link usage is [google][go to google]  
+[go to google]: www.google.com
+```
+
+### Image
+```
+![inline image alt text](https://avatars2.githubusercontent.com/u/6265563?s=460&v=4)  
+```
+
+### Block Quote
+```
 Use > in the beginning of line to have block quote like this
+```
 > "This is the first quote CY made"
 
+### Unordered List
+```
 Use * to present unordered list like this
-* first item
-  * 1.1
-  * 1.2
-* second item
-  * 2.1
-* third item
+```
+> * first item
+>   * 1.1
+>   * 1.2
+> * second item
+>   * 2.1
+> * third item
 
+### Ordered List
+```
 Use 1. 2. 3. to present ordered list
-1. item1
-2. item2
-3. item3
+```
+> 1. item1
+> 2. item2
+> 3. item3
 
-
-#### The Recipe
+#### List Example
+```
 1. Crack three eggs over a bowl.  
   Now, you're going to want to crack the eggs in such a way that you don't make a mess.
   If you _do_ make a mess, use a towel to clean it up!
@@ -56,16 +80,19 @@ Use 1. 2. 3. to present ordered list
    * Make sure no trout or children are present
    * Use both hands
    * Always have a towel nearby in case of messes
-   
+```
+
+### Code
+```
 Use ``` for multiple line code  
+```
 ```
 if(true) {
   print("Hello World")
 }
 ```
 
-
-#### check list
+### check list
 - [x] the item is completed
 - [ ] the item is unfinished
    
