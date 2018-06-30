@@ -87,7 +87,7 @@ if(true) {
   print("Hello World")
 }
 ```  
-### task list
+### Task List
 ```
 - [x] the item is completed
 - [ ] the item is unfinished
