@@ -6,43 +6,41 @@
 ### Bold
 ```
 Use **word** to make word
-```
-
+```  
 ### Italic
 ```
 Use _word_ to make word italic
+```   
+## StrikeThrough
 ```
-
+Use~~word~~ to have strikethrough
+```  
+> ~~word~~  
 ### Header
   > # Header One
   > ## Header Two
   > ### Header Three
   > #### Header Four
   > ##### Header Five
-  > ###### Header Six
-
+  > ###### Header Six  
 ### Inlink Link
 ```
 Use [Text](www.somewhere.txt) to have inline link
-```
-
+```  
 ### Reference Link
 ```
 the reference link usage is [google][go to google]  
 [go to google]: www.google.com
-```
-
+```  
 ### Image
 ```
 ![inline image alt text](https://avatars2.githubusercontent.com/u/6265563?s=460&v=4)  
-```
-
+```  
 ### Block Quote
 ```
 Use > in the beginning of line to have block quote like this
-```
-> "This is the first quote CY made"
-
+```  
+> "This is the first quote CY made"  
 ### Unordered List
 ```
 Use * to present unordered list like this
@@ -52,16 +50,14 @@ Use * to present unordered list like this
 >   * 1.2
 > * second item
 >   * 2.1
-> * third item
-
+> * third item  
 ### Ordered List
 ```
 Use 1. 2. 3. to present ordered list
 ```
 > 1. item1
 > 2. item2
-> 3. item3
-
+> 3. item3  
 #### List Example
 ```
 1. Crack three eggs over a bowl.  
@@ -81,8 +77,7 @@ Use 1. 2. 3. to present ordered list
    * Make sure no trout or children are present
    * Use both hands
    * Always have a towel nearby in case of messes
-```
-
+```  
 ### Code
 ```
 Use ``` for multiple line code  
@@ -91,8 +86,7 @@ Use ``` for multiple line code
 if(true) {
   print("Hello World")
 }
-```
-
+```  
 ### check list
 - [x] the item is completed
 - [ ] the item is unfinished
