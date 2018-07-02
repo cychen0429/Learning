@@ -10,7 +10,13 @@ tmux ls來看目前的session/window狀況
 s可以切換不銅的window/pane  
 
 用tmux list-keys來看快速鍵 tmux list-sessions/panes/windows
-  
+關掉terminal不代表結束該tmux session 其實在背景執行中 可以重新attach
+
+為了讓session名有意義 可以用tmux new -s session_name來創建新的session
+然後之後即使關掉terminal 仍然可以用tmux attach -t session_name重新連上
+
+用CTRL+B D來detach session 或用CTRL+B (來切前一個session 用CTRL+B (來切前一個session
+
 for Pane | []() 
 --- | ---
 % | 水平分割
