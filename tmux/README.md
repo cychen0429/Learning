@@ -8,6 +8,8 @@ Session -> Window -> Pane
 用CTRL+b來下指令 
 tmux ls來看目前的session/window狀況 
 s可以切換不銅的window/pane  
+
+用tmux list-keys來看快速鍵 tmux list-sessions/panes/windows
   
 for Pane | []() 
 --- | ---
