@@ -1,6 +1,7 @@
 ### Tutorial
 Use vimtutor in terminal (about 25-30M)
 [高見龍 Vim的操作小技巧](https://kaochenlong.com/2011/12/28/vim-tips/)
+[VIM screencast](https://www.youtube.com/watch?v=MAHC9eZbx4o&list=PLwJS-G75vM7kFO-yUkyNphxSIdbi_1NKX)
 
 i insert mode  
 v virsual mode可以用來選文字 (用y(yank) copy選到的文字 再用p貼上)  
