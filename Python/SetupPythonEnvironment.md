@@ -26,3 +26,27 @@ virtualenv venv
 source ./venv/bin/activate
 deactivate
 ```
+
+3. Neovim
+* [deoplete-jedi](https://github.com/zchee/deoplete-jedi)
+* pip3 install --user neovim
+* 在~/.config/nvim底下touch init.vim
+```
+" Plugins will be downloaded under the specified directory.
+call plug#begin()
+
+"Declare the list of plugins.
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'zchee/deoplete-jedi'
+
+" List ends here. Plugins become visible to Vimd after this call.
+call plug#end()
+
+set runtimepath+=$XDG_CONFIG_HOME/nvim/plugged/deoplete.nvim
+set completeopt+=noinsert,noselect
+set completeopt-=preview
+let g:deoplete#enable_at_startup = 1
+filetype plugin indent on
+
+call deoplete#custom#option('num_processes', 1)
+```
