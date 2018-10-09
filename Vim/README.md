@@ -37,6 +37,8 @@ CTRL+g顯示檔案位置
 G to the bottom of the file  
 gg to the start of the file  
 500G go to line 500 of the file  
+g; 往前跳到剛剛修改處
+g, 往後跳到修蓋處
   
 / to search file(往下) ?往上搜尋 (n繼續往下搜尋 N往上收尋)  
 %找對應的括號( ｜ {  
